@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace FinalProject_292
 {
-    public partial class Main : Form
+    public partial class RecEarnings : Form
     {
-        public Main()
+        public RecEarnings()
         {
             InitializeComponent();
         }
-
-       
     }
 }
