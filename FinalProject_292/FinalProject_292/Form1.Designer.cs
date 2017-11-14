@@ -52,6 +52,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.statusStripMain = new System.Windows.Forms.StatusStrip();
             this.statusLblUserMain = new System.Windows.Forms.ToolStripStatusLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -314,6 +315,19 @@
             this.statusLblUserMain.Name = "statusLblUserMain";
             this.statusLblUserMain.Size = new System.Drawing.Size(0, 17);
             // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.Font = new System.Drawing.Font("Calibri Light", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.MidnightBlue;
+            this.linkLabel2.Location = new System.Drawing.Point(709, 24);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(48, 15);
+            this.linkLabel2.TabIndex = 22;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Register";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,6 +335,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(761, 340);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.statusStripMain);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -375,6 +390,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.StatusStrip statusStripMain;
         private System.Windows.Forms.ToolStripStatusLabel statusLblUserMain;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
